@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0” />
+    <title style=" background-color: grey"> Cast Page </title>
+    <link rel="stylesheet" href="css2/style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <div>
+  <h1 id="mainheading"> About The Show </h1>
+  </div>
+
+  <div class="container">
+      <a href="cw2homepage.html" class="item">Homepage</a>
+      <a href="cw2index.html" class="item">Index</a>
+  </div>
+
+  <div class="container2">
+
+  <!--In the <div> element i've used a class element so that in the css file I could add features to it, where in this case I used it to create a box shape around the text and image containing the items within it.
+  -->
+
+  <h2 id="heading"> The Story </h2>
+  <img src="img/hero.jpg" alt="Tobey Maguire"/>
+  <p class="text"> A pirate crew going on an adventure where the captain is aiming to be the king of pirates. </p>
+
+</div>
+
+  <nav class="menu">
+    <div> <img src="obitos-near-death.jpg" width="250" height="150"/> </div>
+    <div> <p> This is obito, he's the reason the anime was basically created because the girl he simped for died and he started a war using a rogue gang as his puppets by manipulating the leader into following his orders to create a world of (through his eyes) "True Peace".
+    <p> Nickname: Simpbito </p>
+    <div> <video width="240" height="120" controls width="25%">
+    <source src="vid/1webm.webm" type="video/webm" />
+    <source src="vid/2ogv.ogv" type="video/ogv" />
+    <source src="vid/3mp4.mp4" type="video/mp4" />
+    </div>
+
+  <nav class="menu2">
+    <div2> <img src="obitos-near-death.jpg" width="250" height="150"/> </div>
+    <div2> <p> This is obito, he's the reason the anime was basically created because the girl he simped for died and he started a war using a rogue gang as his puppets by manipulating the leader into following his orders to create a world of (through his eyes) "True Peace".
+    <p> Nickname: Simpbito </p>
+    <div2> <video width="240" height="120" controls width="25%">
+    <source src="vid/1webm.webm" type="video/webm" />
+    <source src="vid/2ogv.ogv" type="video/ogv" />
+    <source src="vid/3mp4.mp4" type="video/mp4" />
+    </div>
+   </nav>
+  <script>
+  toggleAnimation = (evt) => {
+  evt.target.classList.toggle("out")
+  };
+  document
+  .querySelector(".menu")
+  .addEventListener("click", toggleAnimation);
+  </script>
+</body>
+</html>
